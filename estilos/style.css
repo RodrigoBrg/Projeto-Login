@@ -34,11 +34,14 @@ main{
 
 
     background-color:#E1E7E7 ;
-    height: 600px;
-    width: 250px;
+    height: 500px;
+    width: 290px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
     overflow: hidden;
+
+    transition: width .4s, height .4s;
+    transition-timing-function: ease;
 }
 #imagem{
     display: block;
@@ -46,8 +49,8 @@ main{
     background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
+    width: 290px;
+    height: 200px;
 }
 #formulario{
     display: block;
